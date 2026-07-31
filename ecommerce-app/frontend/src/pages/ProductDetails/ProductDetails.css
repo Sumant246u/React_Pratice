@@ -1,0 +1,41 @@
+.product-details{
+    max-width:1200px;
+    margin:50px auto;
+    display:flex;
+    gap:50px;
+    padding:20px;
+}
+
+.image-section{
+    flex:1;
+}
+
+.image-section img{
+    width:100%;
+    max-height:500px;
+    object-fit:contain;
+}
+
+.info-section{
+    flex:1;
+}
+
+.info-section h1{
+    margin-bottom:20px;
+}
+
+.info-section h2{
+    color:green;
+    margin-bottom:20px;
+}
+
+.info-section p{
+    margin:15px 0;
+    line-height:1.6;
+}
+
+.info-section button{
+    margin-top:20px;
+    padding:12px 20px;
+    cursor:pointer;
+}
